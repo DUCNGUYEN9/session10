@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 100px auto;
+  width: 250px;
+  border: 2px solid #000;
+  box-shadow: 0 0 10px #e6e4e4;
+  border-radius: 4px;
+}
+.container .output {
+  width: 230px;
+  height: 40px;
+  margin: 5px auto;
+  border: 1px solid #000;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 40px;
+  font-size: 20px;
+  color: blue;
+}
+.container .number {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  gap: 15px 10px;
+  margin: 10px 0 10px 10px;
+  cursor: pointer;
+  color: blue;
+  font-weight: 900;
+}
+.container .number div:hover {
+  transform: scale(0.9);
+  background-color: beige;
+}
+.container .number div {
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+}
